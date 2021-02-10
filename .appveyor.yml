@@ -18,7 +18,3 @@ build_script:
 
 test_script:
   - npm run test  # скрипт тестирования
-
-start_script:
-  - npm run start  # скрипт start
-  

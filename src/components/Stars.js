@@ -18,13 +18,13 @@ export default function Stars(props) {
       {
       listStars.map
       ( id => (
-      <li key={ id }>
-          {" "}
-          <Star />
-      </li>
-      )
-      )
-      }
+          <li key={ id }>
+              {" "}
+              <Star />
+          </li>
+          )
+       )
+       }
     </ul>
   );
 }

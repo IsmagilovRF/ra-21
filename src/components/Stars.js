@@ -10,17 +10,21 @@ export default function Stars(props) {
 
   const listStars = [];
   for (let i = 0; i < count; i += 1) {
-    listStars.push(1);
+    listStars.push(i+1);
   }
 
   return (
     <ul className="card-body-stars u-clearfix">
-      {listStars.map(id => (
-        <li key={id}>
+      {
+      listStars.map
+      ( id => (
+      <li key={ id }>
           {" "}
           <Star />
-        </li>
-      ))}
+      </li>
+      )
+      )
+      }
     </ul>
   );
 }

@@ -18,3 +18,5 @@ build_script:
 
 test_script:
   - npm run test  # скрипт тестирования
+
+  
